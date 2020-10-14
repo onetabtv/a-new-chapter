@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int arr[20];
+  // vuvejdame [n] na broi stoinost
+  // v sluchaq masiva mozhe da prieme do 20
+  // mozhe da se vuvede naprimer 1, 2...20; no ne poveche
+  // tolkova sa max stoinostite, koito sme vkarali
+  int num;
+  int i;
+  cin >> num;
+  for (int i = 0; i < num; i++)
+  {
+    cin >> arr[i];
+  }
+// vuvedohme stoinosti s for
+  for (int i = 0; i < num; i++)
+  {
+    cout << arr[i] << " ";
+ 
+  }
+// izvejda chislata koito sme vkarali
+// zaduljiteno pak izvejdame s for
+
+}
